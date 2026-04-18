@@ -84,8 +84,8 @@ void OLED_Refresh(void)
 	for(i=0;i<8;i++)
 	{
 		OLED_WR_Byte(0xb0+i,OLED_CMD);
-		OLED_WR_Byte(0x00,OLED_CMD);
-		OLED_WR_Byte(0x10,OLED_CMD);
+		OLED_WR_Byte(0x02,OLED_CMD);  // 低列地址改为0x02，适配SH1106
+		OLED_WR_Byte(0x10,OLED_CMD);  // 高列地址
 		for(n=0;n<128;n++)
 		{
 			OLED_WR_Byte(OLED_GRAM[n][i],OLED_DATA);
@@ -377,7 +377,7 @@ void OLED_Init(void)
 	OLED_WR_Byte(0xA8,OLED_CMD);//--set multiplex ratio(1 to 64)
 	OLED_WR_Byte(0x3f,OLED_CMD);//--1/64 duty
 	OLED_WR_Byte(0xD3,OLED_CMD);//-set display offset	Shift Mapping RAM Counter (0x00~0x3F)
-	OLED_WR_Byte(0x02,OLED_CMD);//-offset 2 pixels
+	OLED_WR_Byte(0x00,OLED_CMD);//-offset 2 pixels
 	OLED_WR_Byte(0xd5,OLED_CMD);//--set display clock divide ratio/oscillator frequency
 	OLED_WR_Byte(0x80,OLED_CMD);//--set divide ratio, Set Clock as 100 Frames/Sec
 	OLED_WR_Byte(0xD9,OLED_CMD);//--set pre-charge period

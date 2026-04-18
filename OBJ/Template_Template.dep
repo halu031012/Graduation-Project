@@ -1,5 +1,5 @@
 Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
-F (.\main.c)(0x69E34F16)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED-ID:\keil5\ARM\RV31\INC-ID:\keil5\ARM\CMSIS\Include-ID:\keil5\ARM\INC\ST\STM32F4xx-D__UVISION_VERSION="524" -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x69E3579E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED-ID:\keil5\ARM\RV31\INC-ID:\keil5\ARM\CMSIS\Include-ID:\keil5\ARM\INC\ST\STM32F4xx-D__UVISION_VERSION="524" -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\SYSTEM\sys\sys.h)(0x67AE74BF)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -40,7 +40,7 @@ I (..\SYSTEM\usart\usart.h)(0x67AE74BB)
 I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (..\HARDWARE\LED\led.h)(0x67AE77F8)
 I (..\HARDWARE\KEY\key.h)(0x67AE77F8)
-I (..\HARDWARE\OLED\oled.h)(0x69E33E5B)
+I (..\HARDWARE\OLED\oled.h)(0x69E356CB)
 I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 F (.\stm32f4xx_it.c)(0x5426CDF4)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED-ID:\keil5\ARM\RV31\INC-ID:\keil5\ARM\CMSIS\Include-ID:\keil5\ARM\INC\ST\STM32F4xx-D__UVISION_VERSION="524" -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ..\obj\stm32f4xx_it.o --omf_browse ..\obj\stm32f4xx_it.crf --depend ..\obj\stm32f4xx_it.d)
 I (stm32f4xx_it.h)(0x5426CDC1)
@@ -1456,7 +1456,6 @@ I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 I (..\SYSTEM\usart\usart.h)(0x67AE74BB)
 I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
-F (..\README\README.txt)(0x67AE754F)()
 F (..\HARDWARE\KEY\key.c)(0x69E32D92)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED-ID:\keil5\ARM\RV31\INC-ID:\keil5\ARM\CMSIS\Include-ID:\keil5\ARM\INC\ST\STM32F4xx-D__UVISION_VERSION="524" -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
 I (..\HARDWARE\KEY\key.h)(0x67AE77F8)
 I (..\SYSTEM\sys\sys.h)(0x67AE74BF)
@@ -1532,8 +1531,8 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-F (..\HARDWARE\OLED\oled.c)(0x69E34BB4)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED-ID:\keil5\ARM\RV31\INC-ID:\keil5\ARM\CMSIS\Include-ID:\keil5\ARM\INC\ST\STM32F4xx-D__UVISION_VERSION="524" -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ..\obj\oled.o --omf_browse ..\obj\oled.crf --depend ..\obj\oled.d)
-I (..\HARDWARE\OLED\oled.h)(0x69E33E5B)
+F (..\HARDWARE\OLED\oled.c)(0x69E3963A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\FWLIB\inc -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED-ID:\keil5\ARM\RV31\INC-ID:\keil5\ARM\CMSIS\Include-ID:\keil5\ARM\INC\ST\STM32F4xx-D__UVISION_VERSION="524" -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx-o ..\obj\oled.o --omf_browse ..\obj\oled.crf --depend ..\obj\oled.d)
+I (..\HARDWARE\OLED\oled.h)(0x69E356CB)
 I (..\SYSTEM\sys\sys.h)(0x67AE74BF)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)

@@ -647,16 +647,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>README</GroupName>
-          <Files>
-            <File>
-              <FileName>README.txt</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\README\README.txt</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>HARDWARE</GroupName>
           <Files>
             <File>

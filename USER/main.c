@@ -19,7 +19,9 @@ int main(void)
     
     // 从第2列开始显示（偏移2像素）
     OLED_ShowString(2, 0, "Hello World!", 16, 1);
+
     OLED_ShowString(2, 20, "STM32F407ZGT6", 16, 1);
+
     OLED_ShowString(2, 40, "OLED Test OK!", 16, 1);
     OLED_Refresh();  // 所有显示完成后统一刷新
     
