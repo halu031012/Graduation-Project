@@ -1,0 +1,30 @@
+# Keil 编译产物
+*.o
+*.d
+*.crf
+*.axf
+*.htm
+*.lnp
+*.lst
+*.map
+*.sct
+*.tmp
+
+# OBJ 目录 (编译输出)
+OBJ/
+
+# 系统文件
+*.user
+*.uvoptx
+*.bak
+
+# IDE 配置
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# 日志
+*.log
